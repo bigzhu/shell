@@ -5,4 +5,4 @@ while true; do
     tmux saveb -|pbcopy && tmux deleteb
   fi
   sleep 0.5
-done
+done >> ~/$USER.log &
